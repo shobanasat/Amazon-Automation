@@ -52,6 +52,8 @@ public class AmazonE2E {
 		
 		if (productName.contains("Long Lasting")) {
 			driver.findElement(By.id("buy-now-button")).click();
+			
+			//Code commented here
 			/*
 			 * driver.findElement(By.id("pp-SL73he-203")).click();
 			 * driver.findElement(By.xpath("//span[@data-action=\"a-dropdown-button\"]")).
